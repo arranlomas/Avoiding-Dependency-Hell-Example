@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+//Declaring a variable to points to the ext list we added to in the dependencies.gradle
+def globalConf = rootProject.ext
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //Declaring that we have a map of the dependency title and the dependency definition
+    Map<String, String> dependencies = globalConf.commonDependencies
+
+    //We can still exclude other dependencies
+    androidTestCompile (dependencies.espressoCore, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile dependencies.jUnit
+
+    //Normal dependency Declaration
+    compile dependencies.appCompat
+    compile dependencies.kotlinStdLib
+    compile dependencies.rxJava
+
+    //Sub Project Dependencies
+    compile project(':core')
+}
