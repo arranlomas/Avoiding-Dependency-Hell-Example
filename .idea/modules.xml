@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Avoiding-Dependency-Hell-Example.iml" filepath="$PROJECT_DIR$/Avoiding-Dependency-Hell-Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/DependencyExample.iml" filepath="$PROJECT_DIR$/DependencyExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/auth/auth.iml" filepath="$PROJECT_DIR$/auth/auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/feature1.iml" filepath="$PROJECT_DIR$/feature1/feature1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature2/memberships.iml" filepath="$PROJECT_DIR$/feature2/memberships.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature3/payments.iml" filepath="$PROJECT_DIR$/feature3/payments.iml" />
       <module fileurl="file://$PROJECT_DIR$/memberships/memberships.iml" filepath="$PROJECT_DIR$/memberships/memberships.iml" />
       <module fileurl="file://$PROJECT_DIR$/payments/payments.iml" filepath="$PROJECT_DIR$/payments/payments.iml" />
     </modules>

@@ -9,10 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/auth" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/memberships" />
-            <option value="$PROJECT_DIR$/payments" />
+            <option value="$PROJECT_DIR$/feature1" />
+            <option value="$PROJECT_DIR$/feature2" />
+            <option value="$PROJECT_DIR$/feature3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

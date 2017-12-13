@@ -38,7 +38,7 @@ dependencies {
     compile dependencies.rxJava
 
     //Sub Project Dependencies
-    compile project(':auth')
-    compile project(':memberships')
-    compile project(':payments')
+    compile project(':feature1')
+    compile project(':feature2')
+    compile project(':feature3')
 }
