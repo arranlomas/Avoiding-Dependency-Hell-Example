@@ -15,9 +15,9 @@ These modules often have common dependencies and managing the versioning of thes
 
 This can be fixed by creating a file for all your dependencies and then using this in the individual sub-projects
 
-# Article Coming Soon
+# Article 
 
-I am currently working on an article that describes this process but for now this process can pretty much be seen in this repo
+This repo is the example for an article explaining multi project dependencies which can be found [here](https://medium.com/@arranlomas/managing-dependencies-in-multi-project-builds-with-gradle-7626d9c6448d)
 
 # Basic steps
 
